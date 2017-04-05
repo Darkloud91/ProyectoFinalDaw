@@ -1,0 +1,13 @@
+<?xml version"1.0" encoding="iso-8859-1"?>
+<rss version="2.0">
+	<channel>
+		<tittle>Titulo de la web</title>
+		<link> URL DE LA WEB</link>
+		<descrition> DESCRIPCION </description>
+		<item>
+			<title>Titulo del anuncio</title>
+			<link>URL del anuncio</link>
+			<description>DESCRIPCION del anuncio</description>
+		</item>
+	</channel>
+</rss>

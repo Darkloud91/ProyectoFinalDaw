@@ -1,0 +1,17 @@
+<div class="col-xs-3 infoI"> <a href="http://www.treeofsavior.com" target="_blank"><img src="images/tos_logo.png" style="height: 75%; width:75%"></a> </div>
+<div class="col-xs-6 infoC">
+          <table align="center" style="text-align:center; vertical-align:middle" class=" borderless" width="100%">
+            <tr style="height:100px">
+              <td  valign="middle"> Esta es una página fan del juego <b>Tree of Savior</b> creado por <b>imcGames</b>.</td>
+                </tr>
+            </table>
+      </div>
+<div class="col-xs-3 infoD"> <table align="center" style="text-align:center; vertical-align:middle" class=" borderless" width="100%">
+            <tr style="height:100px">
+              <td  valign="middle">&copy; 2016 <br/>  <a href="Darkloud">Darkloud</a> &bull; <a href="contacto">Contacto</a> </td>
+                </tr>
+            </table> </div>
+  
+  
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> 
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>

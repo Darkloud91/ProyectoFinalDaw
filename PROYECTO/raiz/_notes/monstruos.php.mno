@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Monstruo" value="name:id_monstruo;datatype:int,name:nombre;datatype:string,name:nombre_ingles;datatype:string,name:nivel;datatype:int,name:tipo;datatype:int,name:raza;datatype:int,name:elemento;datatype:int,name:armadura;datatype:int,name:tamanio;datatype:string,name:movimiento;datatype:int,name:velocidad;datatype:string,name:ps;datatype:int,name:exp_personaje;datatype:int,name:exp_clase;datatype:int,name:imagen;datatype:string" />
+</info>

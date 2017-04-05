@@ -1,0 +1,157 @@
+
+PENDIENTE:
+Añadir una imagen al mensaje de error
+
+Firefox:
+Firebug (Instalar)
+
+
+
+CAJAS REDONDEADAS:
+.cajaredondeada {
+	background-color:#fff;
+	border:1px solid #bbbabc;
+	width:335px;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	box-shadow:inset 0 0 8px #dcddde;
+	-moz-box-shadow:inset 0 0 8px #dcddde;
+	-webkit-box-shadow:inset 0 0 8px #dcddde
+}
+
+.boton {
+	background-color:#c9048d;
+	border:1px solid #a50574;
+	color:#fff;
+	text-align:center;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	padding: 8px;
+	min-width:110px;
+}
+.boton:hover {
+	background-color:#df049c;
+	color:#fff;
+	cursor:pointer;
+}
+.campo{
+	border-radius: 5px;
+	padding: 5px;
+	width: 200px;
+	border: 1px solid #EEE;
+}
+
+.diverrores{
+	display:none;
+	font-size: 10px;
+	color: #F00;
+}
+
+
+VALIDACION
+
+function validateformalta()
+{
+    valid = true;
+	$(".diverrores").hide("slow");
+	document.formalta.strNombre.style.border='1px solid black';
+	//COLORES
+	if ( document.formalta.strNombre.value == ""){
+		$("#aviso1").show("slow");
+		document.formalta.strNombre.style.border='1px solid red';
+	}
+	}
+El error que se muestra
+<div class="diverrores" id="aviso1">Introduce un valor</div>
+
+Scrit de envio formulario:
+
+<script type="text/javascript">
+
+
+
+$('#botoninsertar').click(function (){
+$("#exito1").hide("fast");
+if (validateformpregunta())
+	{	
+	var preguntatexto = document.formfrecuente.strTexto.value;
+	$.ajax({
+		type: "POST",
+		url:"includes/funciones-ajax.php",
+		data: 'strTexto='+preguntatexto,
+		success: function(resp)
+		{  
+			if (resp==1)
+			{
+				 $("#exito1").show("slow");
+				 document.formfrecuente.strTexto.value="";
+			}
+		}
+		});
+	}
+});
+
+
+</script>
+
+
+//FORMATEO DE FECHAS
+function DateToQuotedMySQLDate($Fecha) 
+{ 
+$Parte1 = substr($Fecha, 0, 10);
+$Parte2 = substr($Fecha, 10, 18);
+
+if ($Parte1<>""){ 
+   $trozos=explode("/",$Parte1,3); 
+   return $trozos[2]."-".$trozos[1]."-".$trozos[0].$Parte2; } 
+else 
+   {return "NULL";} 
+} 
+
+function MySQLDateToDateHORA($MySQLFecha) 
+{ 
+if (($MySQLFecha == "") or ($MySQLFecha == "0000-00-00") ) 
+    {return "";} 
+else 
+    {return date("H:i",strtotime($MySQLFecha));} 
+} 
+
+function MySQLDateToDateDIA($MySQLFecha) 
+{ 
+if (($MySQLFecha == "") or ($MySQLFecha == "0000-00-00") ) 
+    {return "";} 
+else 
+    {return date("d/m/Y",strtotime($MySQLFecha));} 
+}
+
+//BLOQUE PARA APARICION Y DESAPARICION
+<script>
+function lateralshowonlyone(thechosenone) {
+     $('.lateralnewboxes').each(function(index) {
+          if ($(this).attr("id") == thechosenone) {
+               $(this).show(200);
+          }
+          else {
+               $(this).hide(600);
+          }
+     });
+}
+</script>
+<a class="preguntas" id="lateralmyHeader1" href="javascript:lateralshowonlyone('lateralnewboxes1');" >LINK DE APERTURA</a>
+
+//BLOQUE QUE SE ABRE O SE CIERRA:
+<div class="lateralnewboxes" id="lateralnewboxes1" style="display: none;"></div>
+
+
+//CONTROL DE QUE EL EMAIL ESTA ESCRITO CORRECTAMENTE
+
+function valEmail(valor){ 
+    re=/^[_a-z0-9-]+(.[_a-z0-9-]+)*@[a-z0-9-]+(.[a-z0-9-]+)*(.[a-z]{2,3})$/
+    if(!re.exec(valor))    {
+        return false;
+    }else{
+        return true;
+    }
+}

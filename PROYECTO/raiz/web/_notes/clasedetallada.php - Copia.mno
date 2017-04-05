@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Consultaclasedetallada" value="name:id_clase;datatype:int,name:nombre;datatype:string,name:nombre_ingles;datatype:string,name:rango;datatype:int,name:tipo;datatype:int,name:descripcion;datatype:blob,name:circulo;datatype:int,name:avatar_m;datatype:string,name:avatar_f;datatype:string,name:logo;datatype:string,name:funcion;datatype:int,name:dificultad;datatype:int" />
+</info>

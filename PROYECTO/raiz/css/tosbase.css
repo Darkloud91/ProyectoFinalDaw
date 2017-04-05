@@ -1,0 +1,247 @@
+@charset "utf-8";
+body {
+	font-family: 'Libre Baskerville', serif;
+	margin: 0;
+	padding: 0;
+	background: url(../images/fondo.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+	color: #666;
+	font-size: 14px;
+}
+
+.oculto {position: relative; z-index: 0; }
+.oculto:hover{ background-color: transparent; z-index: 50; }
+.oculto span{ /* Estilos para la imagen agrandada */
+position: absolute;
+background-color: white;
+padding: 5px; 
+left: -200px;
+border: 5px double gray;
+visibility: hidden;
+color: black;
+width: 350px;
+display:block;
+}
+.oculto span img{ border-width: 0; padding: 2px;}
+.oculto:hover span{ visibility: visible; top: 0; left: 10px; }
+
+p{
+	margin: 0px;
+	padding: 0px;
+}
+.tituloTabla{
+	background-color:#EFF0EE;
+	font-weight: bolder;
+	color: #333;
+}
+.contenedor{
+-webkit-box-shadow: 5px 4px 23px 20px rgba(0,0,0,0.7);
+-moz-box-shadow: 5px 4px 23px 20px rgba(0,0,0,0.7);
+box-shadow: 5px 4px 23px 20px rgba(0,0,0,0.7);
+	}
+input{
+	font-family: 'Libre Baskerville', serif;
+	font-size: 14px;
+	}
+.texto{
+	font-family: 'Libre Baskerville', serif;
+	font-size: 14px;
+	}
+.header{
+margin-top: 130px;
+}
+.content{
+	background-color:#fff;
+	padding: 10px;
+}
+.sidebar1{
+	background-color:#fff;
+	padding: 10px;
+}
+.fb{
+	margin-top: 100px;	
+}
+.menu{
+	width:100%
+	}
+.dropdown:hover .dropdown-menu {
+display: block;
+}
+.capaerrores{
+	display:none;
+	font-size: 12px;
+	background-color: #FFB7B9;
+	padding: 5px;
+	font-weight: 100;
+	color: #F00;
+	border-radius: 5px;
+	-noz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	}
+.capaexito{
+	display:none;
+	font-size: 12px;
+	background-color: #8bea92;
+	padding: 5px;
+	font-weight: 100;
+	color: #37993e;
+	border-radius: 5px;
+	-noz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	}
+.pregunta{
+	font-size: 12px;
+	background-color: #CCC;
+	font-weight: 100;
+	color: #310000;
+	border-radius: 5px;
+	-noz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-top-color: #09F;
+	border-right-color: #09F;
+	border-bottom-color: #09F;
+	border-left-color: #09F;
+	margin-bottom: 10px;
+		}
+.lateralnewboxes{
+	color: #0C0;	
+}
+.titulo{
+	vertical-align: middle;
+	text-align:left;
+	border-bottom-width: 2px;
+	border-left-width: 5px;
+	border-bottom-color: #000;
+	border-left-color: #000;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #000;
+	border-right-color: #000;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}	
+.row2 {
+  display: flex; /* equal height of the children */
+}
+
+
+.infoI{
+	color: #FFF;
+	background-color: #333;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #000;
+}
+.infoC{
+	color: #FFF;
+	background-color: #333;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+}
+.infoD{
+	color: #FFF;
+	background-color: #333;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #000;
+}
+
+.ingles{
+	font-size: 11px;
+}
+table, td, th{
+	vertical-align: middle;
+	padding: 5px;
+}
+
+.rango1{
+	text-align: center;
+	vertical-align: middle;
+	background-color: #f7c209;
+	color: #FFF;
+}
+.rango2{
+	text-align: center;
+	vertical-align: middle;
+	background-color:  #adbd5b;
+	color: #FFF;
+}
+.rango3{
+	color: #FFF;
+	background-color: #72c499;		
+}
+.rango4{
+	color: #FFF;
+	background-color: #4baabb;		
+}
+.rango5{
+	color: #FFF;
+	background-color: #719ab7;		
+}
+.rango6{
+	color: #FFF;
+	background-color: #7178b7;		
+}
+.rango7{
+	color: #FFF;
+	background-color: #000;		
+}
+.rango8{
+		color: #FFF;
+	background-color: #000;	
+}
+th{
+ text-align: center;
+ vertical-align: middle;
+	}
+.borderless table{
+	border: 1px solid #333 !important;	
+}	
+	
+.borderless td, .borderless th {
+     border: 0px !important;
+}
+
+#streams_stream_list {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+#streams_stream_list li {
+	list-style-type:none;
+    list-style: none;
+    padding: 10px;
+    display: block;
+    position: relative;
+}
+
+#streams_stream_list li .stream_preview {
+}
+
+#streams_stream_list li .stream_info {
+    position: absolute;
+    left: 340px;
+    top: 10px;
+    height: 190px;
+    padding: 5px;
+}

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Noticias" value="name:id_usuario;datatype:int,name:usuario;datatype:string,name:contrasenia;datatype:string,name:email;datatype:string,name:rango;datatype:int,name:avatar;datatype:string,name:id_noticia;datatype:int,name:id_usuario;datatype:int,name:titulo;datatype:string,name:descripcion;datatype:string,name:fecha;datatype:datetime,name:tipo;datatype:int,name:imagen;datatype:string,name:ref;datatype:string" />
+	<infoitem key="UD_Autor" value="name:id_usuario;datatype:int,name:usuario;datatype:string,name:contrasenia;datatype:string,name:email;datatype:string,name:rango;datatype:int,name:avatar;datatype:string" />
+</info>

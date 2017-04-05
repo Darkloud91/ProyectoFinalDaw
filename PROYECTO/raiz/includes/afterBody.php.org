@@ -1,0 +1,89 @@
+<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.5&appId=311736872283357";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+    
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+           <li><a href="index.php">Noticias</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Juego<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="clases.php">Clases</a></li>
+                            <li><a href="jcj.php">JcJ</a></li>
+                            <li role="separator" class="divider"></li>
+							<li><a href="elementos.php">Elementos</a></li>
+							<li><a href="tablasEXP.php">Tablas de EXP</a></li>
+                            <li role="separator" class="divider"></li>
+							<li><a href="#">Mapa mundi</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Base de datos<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="monstruos.php">Monstruos</a></li>
+							<li><a href="#">Objetos</a></li>
+							<li role="separator" class="divider"></li>
+                            <li><a href="#">Atributos</a></li>							
+							<li><a href="#">Habilidades</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Mapas</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Herramientas <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Simulador de Personaje</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Media<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="descargas.php">Descargas</a></li>
+                            <li role="separator" class="divider"></li>
+							<li><a href="retransmisiones.php">Retransmisiones</a></li>
+							<li><a href="multiretransmision.php">Multi Twitch</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="bso.php">BSO</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Comunidad<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+                           <li><a href="http://www.tosbase.es/foro">Foro</a></li>
+					<li><a href="http://wiki.tosbase.es/">Wiki</a></li>
+                     <li role="separator" class="divider"></li>
+							<li><a href="chat.php">Chat</a></li>
+                            <li role="separator" class="divider"></li>
+							<li><a href="#">Clanes</a></li>
+						</ul>
+					</li>
+                    <li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Otros<span class="caret"></span></a>
+						<ul class="dropdown-menu">                     
+							<li><a href="#">Estado de los servidores</a></li>
+						</ul>
+					</li>
+					
+          </ul>
+            <ul class="nav navbar-nav navbar-right">
+      <li><a href="registro.php"><span class="glyphicon glyphicon-user"></span> Registrarse</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Entrar</a></li>
+    </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>

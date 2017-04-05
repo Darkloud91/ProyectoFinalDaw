@@ -1,0 +1,3 @@
+Montaraz es una clase de tipo espadachín y están especializados en armas a dos manos.
+
+Tiene mas estadísticas de ataque que el Peltasta que está en el mismo rango. También posee numerosas habilidades de ataque de largo alcance, por lo que es útil cuando se enfrentan a varios enemigos a la vez. Los enemigos que son arrojados por la clase Montaraz reciben daños de colisión secundarios cuando son golpeados en las paredes o barreras de modo que cuando el ambiente alrededor del Montaraz es bastante complejo,  demostrará su valia.
